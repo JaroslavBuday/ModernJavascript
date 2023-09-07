@@ -6,10 +6,27 @@
 
 header {
     background-color: rgb(66, 18, 18);
-    margin-bottom: 10px;
+    
     padding: 10px 0;
 }
 h1 {
     text-align: center;
     color: rgb(184, 157, 157);
+}
+
+main {
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: rgb(202, 202, 240);
+}
+input {
+    margin: 2px 0;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5PX;
+}
+
+input:hover[type="submit"] {
+    background-color: aqua;
+    cursor: pointer;
 }
