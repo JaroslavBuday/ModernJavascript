@@ -9,7 +9,7 @@ console.log(event)
     
   let paragraph = document.createElement("p")
 
-    paragraph.innerHTML = `Meno: ${firstName}, <br> Priezvisko: ${secondName}, <br>mail: ${email}<br>   - - - - - - - - - - - - - - - - -  `
+    paragraph.innerHTML = `Meno: ${firstName}, <br> Priezvisko: ${secondName}, <br>mail: ${email}<br> <hr>  <br>  `
 
     document.querySelector("#from-form").appendChild(paragraph)
 
