@@ -7,15 +7,13 @@ console.log(event)
     let email = event.target.elements.email.value  
 
     
-    console.log(firstName)
-    console.log(secondName)
-    console.log(email)
+  let paragraph = document.createElement("p")
 
-//   let paragraph = document.createElement("p")
+    paragraph.innerHTML = `Meno: ${firstName}, <br> Priezvisko: ${secondName}, <br>mail: ${email}<br>   - - - - - - - - - - - - - - - - -  `
 
-//     paragraph.textContent = event.target.elements.FirstName.value
+    document.querySelector("#from-form").appendChild(paragraph)
 
-//     document.querySelector("#fromInputs").appendChild(paragraph)
-
-//     event.target.elements.FirstName.value = ""
+    event.target.elements.firstName.value = ""
+    event.target.elements.secondName.value = ""
+    event.target.elements.email.value = ""
 })
