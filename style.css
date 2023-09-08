@@ -26,6 +26,10 @@ input {
     border-radius: 5PX;
 }
 
+input[type="submit"] {
+    margin: 10px 0 10px 60px;
+}
+
 input:hover[type="submit"] {
     background-color: aqua;
     cursor: pointer;
