@@ -12,8 +12,10 @@ let heading = document.querySelector("h1")
 heading.addEventListener("mouseenter", function(event){
   heading.style.color = "white"
   heading.style.backgroundColor = "blue"
+  heading.style.fontWeight = 100
 })
 heading.addEventListener("mouseleave", function(event){
   heading.style.color = "red"
   heading.style.backgroundColor = "black"
+  heading.style.fontWeight = 600
 })
